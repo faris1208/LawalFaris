@@ -10,6 +10,7 @@ import { SiSass } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiStyledcomponents } from "react-icons/si";
 import { IoLogoHtml5 } from "react-icons/io5";
+import resume from "../assets/Img/Resume.pdf"
 
 
 
@@ -24,7 +25,7 @@ function Portfolio() {
                 <p>LAWAL FARIS</p>
             </div>
             <div className='Resume'>
-                <a href='/'>
+                <a href={resume} download="resume">
                     <button className='Resume-btn'>Resume</button>
                 </a>
                 <Link to={'#Contact'} style={{textDecoration: 'none'}} smooth>
@@ -105,13 +106,63 @@ function Portfolio() {
                     <p>React,Css,Html</p>
                 </div>
                 <div className='Projects-Sites'>
-                    <a href='/'>
+                    <a href='https://voting-system-pi.vercel.app/'>
                         <div className='Movies'>
-                            <h2>Movie App - Movies</h2>
+                            <h2>Voting System</h2>
                         </div>
                     </a>
                     <div className='Visit'>
-                        <button className='visit-btn'> VISIT SITE</button>
+                        <button className='visit-btn'>
+                            <a href='https://voting-system-pi.vercel.app/'>VISIT SITE</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='Projects-container'>
+            <div className='Projects-wrapper'>
+                <div className='Projects-texts-two'>
+                    {/* <div className='Featured'>
+                        <p>Featured</p>
+                        <p>Project(5)</p>
+                    </div> */}
+                    <p>Javascript,Css,Html</p>
+                </div>
+                <div className='Projects-Sites'>
+                    <a href='https://faris1208.github.io/Search-Engine/'>
+                        <div className='Movies'>
+                            <h2>Search - Engine</h2>
+                        </div>
+                    </a>
+                    <div className='Visit'>
+                        <button className='visit-btn'> 
+                            <a href='https://faris1208.github.io/Search-Engine/'>VISIT SITE</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='Projects-container'>
+            <div className='Projects-wrapper'>
+                <div className='Projects-texts-two'>
+                    {/* <div className='Featured'>
+                        <p>Featured</p>
+                        <p>Project(5)</p>
+                    </div> */}
+                    <p>Javascript,Css,Html</p>
+                </div>
+                <div className='Projects-Sites'>
+                    <a href='https://faris1208.github.io/Country-Flag/'>
+                        <div className='Movies'>
+                            <h2>Country-Flag</h2>
+                        </div>
+                    </a>
+                    <div className='Visit'>
+                        <button className='visit-btn'>
+                            <a href='https://faris1208.github.io/Country-Flag/'>VISIT SITE</a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -127,57 +178,15 @@ function Portfolio() {
                     <p>React,Css,Html</p>
                 </div>
                 <div className='Projects-Sites'>
-                    <a href='/'>
+                    <a href='https://movieland-six-nu.vercel.app/'>
                         <div className='Movies'>
                             <h2>Movie App - Movies</h2>
                         </div>
                     </a>
                     <div className='Visit'>
-                        <button className='visit-btn'> VISIT SITE</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='Projects-container'>
-            <div className='Projects-wrapper'>
-                <div className='Projects-texts-two'>
-                    {/* <div className='Featured'>
-                        <p>Featured</p>
-                        <p>Project(5)</p>
-                    </div> */}
-                    <p>React,Css,Html</p>
-                </div>
-                <div className='Projects-Sites'>
-                    <a href='/'>
-                        <div className='Movies'>
-                            <h2>Movie App - Movies</h2>
-                        </div>
-                    </a>
-                    <div className='Visit'>
-                        <button className='visit-btn'> VISIT SITE</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='Projects-container'>
-            <div className='Projects-wrapper'>
-                <div className='Projects-texts-two'>
-                    {/* <div className='Featured'>
-                        <p>Featured</p>
-                        <p>Project(5)</p>
-                    </div> */}
-                    <p>React,Css,Html</p>
-                </div>
-                <div className='Projects-Sites'>
-                    <a href='/'>
-                        <div className='Movies'>
-                            <h2>Movie App - Movies</h2>
-                        </div>
-                    </a>
-                    <div className='Visit'>
-                        <button className='visit-btn'> VISIT SITE</button>
+                        <button className='visit-btn'>
+                            <a href='https://movieland-six-nu.vercel.app/'>VISIT SITE</a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -190,16 +199,18 @@ function Portfolio() {
                         <p>Featured</p>
                         <p>Project(5)</p>
                     </div> */}
-                    <p>React,Css,Html</p>
+                    <p>React,Scss,Html</p>
                 </div>
                 <div className='Projects-Sites'>
-                    <a href='/'>
+                    <a href='https://rock-bottom.vercel.app/'>
                         <div className='Movies'>
-                            <h2>Movie App - Movies</h2>
+                            <h2>Rock Bottom Initiative</h2>
                         </div>
                     </a>
                     <div className='Visit'>
-                        <button className='visit-btn'> VISIT SITE</button>
+                        <button className='visit-btn'>
+                            <a href='https://rock-bottom.vercel.app/'>VISIT SITE</a>
+                        </button>
                     </div>
                 </div>
             </div>

@@ -274,6 +274,11 @@
     color: #AAAA9C;
 }
 
+.visit-btn a{
+    text-decoration: none;
+    color: #AAAA9C;
+}
+
 .Projects-texts-two{
     display: flex;
     justify-content: flex-end;
