@@ -156,7 +156,7 @@ function Portfolio() {
                 <div className='Projects-Sites'>
                     <a href='https://www.maritestafrica.com/'>
                         <div className='Movies'>
-                            <h2>Maritest-Project</h2>
+                            <h2>Maritest - Project</h2>
                         </div>
                     </a>
                     <div className='Visit'>
