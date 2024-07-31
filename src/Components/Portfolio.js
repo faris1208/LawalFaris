@@ -151,17 +151,17 @@ function Portfolio() {
                         <p>Featured</p>
                         <p>Project(5)</p>
                     </div> */}
-                    <p>Javascript,Css,Html</p>
+                    <p>Nextjs,Module Scss</p>
                 </div>
                 <div className='Projects-Sites'>
-                    <a href='https://faris1208.github.io/Country-Flag/'>
+                    <a href='https://www.maritestafrica.com/'>
                         <div className='Movies'>
-                            <h2>Country-Flag</h2>
+                            <h2>Maritest-Project</h2>
                         </div>
                     </a>
                     <div className='Visit'>
                         <button className='visit-btn'>
-                            <a href='https://faris1208.github.io/Country-Flag/'>VISIT SITE</a>
+                            <a href='https://www.maritestafrica.com/'>VISIT SITE</a>
                         </button>
                     </div>
                 </div>
