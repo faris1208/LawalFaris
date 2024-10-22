@@ -168,7 +168,7 @@
     align-items: center;
     gap: 10px;
     /* max-width: 32rem; */
-    max-width: 130px;
+    max-width: 129px;
 }
 
 .react-icon{
@@ -233,15 +233,12 @@
 
 .Projects-Sites a{
     width: 100%;
-    /* text-decoration: none; */
-    /* color: #777777; */
     position: relative;
 }
 
 .Movies h2{
     display: inline-block;
     overflow: hidden;
-    /* background: linear-gradient(#777, #ffffff 50%, #5e5e5e 50%, #ffffff); */
     background-size: 100% 200%;
     background-position: 100% 100%;
     /* -webkit-background-clip: text; */

@@ -103,17 +103,17 @@ function Portfolio() {
                         <p>Featured</p>
                         <p>Project(5)</p>
                     </div>
-                    <p>React,Css,Html</p>
+                    <p>Nextjs,Typescript,Module Scss</p>
                 </div>
                 <div className='Projects-Sites'>
-                    <a href='https://voting-system-pi.vercel.app/'>
+                    <a href='https://www.clubarant.com/'>
                         <div className='Movies'>
-                            <h2>Voting System</h2>
+                            <h2>Clubarant</h2>
                         </div>
                     </a>
                     <div className='Visit'>
                         <button className='visit-btn'>
-                            <a href='https://voting-system-pi.vercel.app/'>VISIT SITE</a>
+                            <a href='https://www.clubarant.com/'>VISIT SITE</a>
                         </button>
                     </div>
                 </div>
