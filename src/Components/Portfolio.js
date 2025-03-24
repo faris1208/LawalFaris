@@ -10,10 +10,7 @@ import { SiSass } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiStyledcomponents } from "react-icons/si";
 import { IoLogoHtml5 } from "react-icons/io5";
-import resume from "../assets/Img/Resume.pdf"
-
-
-
+import resume from "../assets/Img/Faris Lawal Resume.pdf"
 
 
 function Portfolio() {
@@ -127,17 +124,17 @@ function Portfolio() {
                         <p>Featured</p>
                         <p>Project(5)</p>
                     </div> */}
-                    <p>Javascript,Css,Html</p>
+                    <p>Next.Js,Scss</p>
                 </div>
                 <div className='Projects-Sites'>
-                    <a href='https://faris1208.github.io/Search-Engine/'>
+                    <a href='https://bricklage.vercel.app/'>
                         <div className='Movies'>
-                            <h2>Search - Engine</h2>
+                            <h2>Bricklage - Project</h2>
                         </div>
                     </a>
                     <div className='Visit'>
-                        <button className='visit-btn'> 
-                            <a href='https://faris1208.github.io/Search-Engine/'>VISIT SITE</a>
+                        <button className='visit-btn'>
+                            <a href='https://bricklage.vercel.app/'>VISIT SITE</a>
                         </button>
                     </div>
                 </div>
@@ -175,30 +172,6 @@ function Portfolio() {
                         <p>Featured</p>
                         <p>Project(5)</p>
                     </div> */}
-                    <p>React,Css,Html</p>
-                </div>
-                <div className='Projects-Sites'>
-                    <a href='https://movieland-six-nu.vercel.app/'>
-                        <div className='Movies'>
-                            <h2>Movie App - Movies</h2>
-                        </div>
-                    </a>
-                    <div className='Visit'>
-                        <button className='visit-btn'>
-                            <a href='https://movieland-six-nu.vercel.app/'>VISIT SITE</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className='Projects-container-two'>
-            <div className='Projects-wrapper'>
-                <div className='Projects-texts-two'>
-                    {/* <div className='Featured'>
-                        <p>Featured</p>
-                        <p>Project(5)</p>
-                    </div> */}
                     <p>React,Scss,Html</p>
                 </div>
                 <div className='Projects-Sites'>
@@ -216,8 +189,29 @@ function Portfolio() {
             </div>
         </div>
 
-       
-
+        <div className='Projects-container-two'>
+            <div className='Projects-wrapper'>
+                <div className='Projects-texts-two'>
+                    {/* <div className='Featured'>
+                        <p>Featured</p>
+                        <p>Project(5)</p>
+                    </div> */}
+                    <p>Javascript,Css,Html</p>
+                </div>
+                <div className='Projects-Sites'>
+                    <a href='https://faris1208.github.io/Search-Engine/'>
+                        <div className='Movies'>
+                            <h2>Search - Engine</h2>
+                        </div>
+                    </a>
+                    <div className='Visit'>
+                        <button className='visit-btn'> 
+                            <a href='https://faris1208.github.io/Search-Engine/'>VISIT SITE</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
